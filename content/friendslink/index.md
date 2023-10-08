@@ -15,7 +15,8 @@ slug: friendslink
 
 | Title            | Description                                                             |
 |------------------|-------------------------------------------------------------------------|
-| [小球飞鱼](https://mantyke.icu/)            | 我们会一起遇见鲸鱼吗？                                      
+| [小球飞鱼](https://mantyke.icu/)            | 我们会一起遇见鲸鱼吗？ 
+| [天堂错误文件](https://naturaleki.one/)            | Across the street, cross one’s heart.
 
 
 

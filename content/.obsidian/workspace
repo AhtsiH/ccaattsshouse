@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "0090f0e9c3cc1178",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ba575ca10b62e39",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Weekly/20231008-周记.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fda7c01e8734ba46",
+    "type": "split",
+    "children": [
+      {
+        "id": "f87cf8a1bcbb6899",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64f3990ec085d987",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4cec756bb3edcb16",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3780ba010171252f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e189564d179c77c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e20096a1cb6ea4e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Weekly/20231008-周记.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9ba575ca10b62e39",
+  "lastOpenFiles": [
+    "Weekly/20231008-周记.md",
+    "Weekly/1031-cactus-mod.md",
+    "posts/2022/1031-cactus-mod.md",
+    "about/index.md",
+    "friendslink/index.md"
+  ]
+}
