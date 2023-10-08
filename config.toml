@@ -1,6 +1,6 @@
 baseURL = ""
-languageCode = "en-us"
-title = "Hugo-Cactus-theme-mod"
+languageCode = "zh-cn"
+title = "猫头气球生产工厂"
 theme = "cactus"
 copyright = "You" # cactus will use title if copyright is not set
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
@@ -65,7 +65,7 @@ weight = 4
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Hugo-cactus-mod by 塔塔"
+  description = "好像有猫，不确定，再看看。"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 10 # this option will be ignored if showAllPostsOnHomePage is set to true
