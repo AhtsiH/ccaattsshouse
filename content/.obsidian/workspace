@@ -7,8 +7,11 @@
         "id": "9ba575ca10b62e39",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Weekly/2023828-2023903周记.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Weekly/2023828-2023903周记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,14 +88,15 @@
   },
   "active": "9ba575ca10b62e39",
   "lastOpenFiles": [
-    "posts/2022/1031-cactus-mod.md",
+    "Weekly/2023828-2023903周记.md",
     "Weekly/20231008-周记.md",
+    "https;/cdn.jsdelivr.net/gh/AhtsiH/picture/米浴宝宝.webp.md",
+    "https;/cdn.jsdelivr.net/gh/AhtsiH/picture/米浴宝宝.webp 1.md",
+    "周记8 28-9 3 b3c47b4508a94563a79d73ddc725d63d/99530ec0a8d148a4a3eb902eca58e682.webp.md",
+    "posts/2022/1031-cactus-mod.md",
     "Weekly/1031-cactus-mod.md",
     "friendslink/index.md",
     "tags-wall.md",
-    "movies.md",
-    "games.md",
-    "books.md",
-    "about/index.md"
+    "movies.md"
   ]
 }
