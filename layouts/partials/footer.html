@@ -14,7 +14,7 @@
            {{ .Site.Params.footer.since }} - 
        {{ end }}
        2023-2023 猫头气球生产工厂</a> · <a id="days">0</a>Days<br>
-     {{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}共生产了{{$var}}k个气球 ·  {{ len (where .Site.RegularPages "Section" "!=" "") }} 篇文章</br><span><p>
+     {{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}共生产了{{$var}}个气球 ·  {{ len (where .Site.RegularPages "Section" "!=" "") }} 篇文章</br><span><p>
    </section>
 
    <script>
