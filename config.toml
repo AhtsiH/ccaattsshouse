@@ -65,7 +65,7 @@ weight = 4
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "好像有猫，不确定，再看看。"
+  description = "————好像有猫，不确定，再看看。"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 10 # this option will be ignored if showAllPostsOnHomePage is set to true
