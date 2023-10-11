@@ -1,5 +1,5 @@
 ---
-title: 
+title: 关于
 date: 2023-10-08
 slug: about
 ---
