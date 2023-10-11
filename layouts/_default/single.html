@@ -8,8 +8,14 @@
     <!-- TODO: search https://gohugo.io/tools/search/ -->
   {{ else }}
     {{ .Content }}
-  {{ end }}
+  
+    <!-- Copyright statement -->
+      <footer>
+       <p>&copy;  {{ now.Year }} Your Blog Name. All rights reserved.</p>
+      </footer>
+   {{ end }}
   </div>
+  
 </article>
 {{ end }}
 
