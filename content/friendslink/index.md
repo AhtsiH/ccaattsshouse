@@ -2,7 +2,7 @@
 
 
 
-title: 友情链接
+title: 朋友们
 date: 2021-08-24 17:51:42
 slug: friendslink
 ---
