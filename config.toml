@@ -2,10 +2,11 @@ baseURL = ""
 languageCode = "zh-cn"
 title = "猫头气球生产工厂"
 theme = "cactus"
-copyright = "米米" # cactus will use title if copyright is not set
+copyright = "You" # cactus will use title if copyright is not set
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 hasCJKLanguage = true
+
 
 # Main menu which appears below site header.
 [permalinks]
@@ -13,28 +14,28 @@ weekly = "/:year/:slug/"
 page = "/:slug/"
 
 [[menu.main]]
-name = "主页"
+name = "Home"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "近况报告"
+name = "Weekly"
 url = "/weekly"
 weight = 2
 
 [[menu.main]]
-name = "碎碎念"
+name = "Others"
 url = "/posts"
 weight = 3
 
 [[menu.main]]
-name = "关于"
-url = "/About"
+name = "About"
+url = "/tags-wall"
 weight = 4
 
 [[menu.main]]
-name = "玻璃球"
-url = "/friendslink"
+name = "Tags"
+url = "/tags"
 weight = 4
 
 [markup]
