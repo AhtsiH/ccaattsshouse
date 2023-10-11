@@ -28,6 +28,7 @@ slug: friendslink
 | [天堂错误文件](https://naturaleki.one/)            |Across the street, cross one’s heart.
 | [小桃花树](https://strawberryxuan.icu/)           |大江大水天自高
 | [晴空](https://summeringway.icu/)                 |像鸟儿编辑它们的飞行一般书写。
+| [你留下点希望的影像吧](https://www.asecarc.top/)                 |A thing of beauty, will never fade away.
 
 <br/>
 </div>
