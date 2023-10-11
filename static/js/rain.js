@@ -1,3 +1,4 @@
+console.log("Script started executing");
 ;(function () {
     const Config = {
        snow: ['🍂','🍁','👻','🎃','☔','(^.༝.^)ﾉ','🎈',], // 雪花的样式，可以放不同的雪花，或者任何 emoji，每次生成新雪花时会随机挑选其中一个
@@ -57,3 +58,4 @@
 
     Config.dom.appendChild($canvas)
 })()
+console.log("Script finished executing");
