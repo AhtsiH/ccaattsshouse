@@ -14,23 +14,28 @@ weekly = "/:year/:slug/"
 page = "/:slug/"
 
 [[menu.main]]
-name = "主页"
+name = "正大门"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "近况报告"
+name = "生产车间"
 url = "/weekly"
 weight = 2
 
 [[menu.main]]
-name = "碎碎念"
+name = "配件车间"
 url = "/posts"
 weight = 3
 
 [[menu.main]]
-name = "关于"
+name = "工厂详情"
 url = "/about"
+weight = 4
+
+[[menu.main]]
+name = "标签纸"
+url = "/tags"
 weight = 4
 
 [[menu.main]]
