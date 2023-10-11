@@ -14,29 +14,29 @@ weekly = "/:year/:slug/"
 page = "/:slug/"
 
 [[menu.main]]
-name = "Home"
+name = "主页"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Weekly"
+name = "近况报告"
 url = "/weekly"
 weight = 2
 
 [[menu.main]]
-name = "Others"
+name = "碎碎念"
 url = "/posts"
 weight = 3
 
 [[menu.main]]
-name = "About"
-url = "/tags-wall"
+name = "关于"
+url = "/about"
 weight = 4
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+[[menu.sub]]
+name = "朋友们"
+url = "/friendslink"
+weight = 1
 
 [markup]
   [markup.tableOfContents]
