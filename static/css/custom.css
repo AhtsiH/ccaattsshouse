@@ -2,3 +2,13 @@
     color: #669988;
     background: #fff;
 }
+.shady {
+    color:#000;
+    font-weight: normal;
+    box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
+}
+.shady:hover{
+   font-weight: normal;
+    color:#669988;
+    box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
+}
