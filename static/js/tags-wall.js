@@ -128,7 +128,7 @@ const Style1 = (data, marks, $tags, $style, Config) => {
   // const Size = [2.5, 3.5, 4.3, 5.1, 5.8, 6.5, 7, 7.5, 8, 8.4, 8.8]
   const Size = [2.5, 3.2, 3.9, 4.5, 5.1, 5.6, 6.1, 6.5, 6.9, 7.3, 7.7]
   const Color = (Array.isArray(Config.color) ? Config.color : [
-    '#669988',"#3381B0","#799978","#345566"
+    '#669988',"#3381B0","#799978","#345566","#CCCCCC","#F5F5DC","#FFDAB9",
   ]).map(color => Utils.Color.format(color))
   const FontSize = (size) => size * 5 * Config.scale
 
