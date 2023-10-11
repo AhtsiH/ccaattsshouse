@@ -128,7 +128,7 @@ const Style1 = (data, marks, $tags, $style, Config) => {
   // const Size = [2.5, 3.5, 4.3, 5.1, 5.8, 6.5, 7, 7.5, 8, 8.4, 8.8]
   const Size = [2.5, 3.2, 3.9, 4.5, 5.1, 5.6, 6.1, 6.5, 6.9, 7.3, 7.7]
   const Color = (Array.isArray(Config.color) ? Config.color : [
-    '#669988'
+    '#669988',"#3381B0","#77BADD","#00AA9A","#799978","#345566","#D1ECFF","#33AAFF"
   ]).map(color => Utils.Color.format(color))
   const FontSize = (size) => size * 5 * Config.scale
 
@@ -209,7 +209,7 @@ const Style1 = (data, marks, $tags, $style, Config) => {
 
   $style.innerHTML = genCSS() + `
     #my-tags { overflow-x: hidden; padding: 7%; text-align: center; width: 100%; height: 100%; position: relative; box-sizing: border-box; }
-    #my-tags a::after { content: "🍃"; }
+    #my-tags a::after { content: "🧊"; }
     #my-tags a:hover::after { animation: move .3s linear infinite; position: relative; }
     #my-tags mark { position: absolute; padding: .2em .3em; display: inline-block; border-radius: .3em; margin: .15em .1em; opacity: .8; transition: opacity .2s; }
     @media (max-width: 1000px) {
