@@ -1,7 +1,10 @@
+
 ::selection {
     color: #669988;
     background: #fff;
 }
+
+/*文本黑幕效果*/
 .shady {
     color:#000;
     font-weight: normal;
@@ -13,7 +16,6 @@
     box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
 }
 
-// 卡片样式
 .mycard {
     padding: 10px 20px;
     margin: 20px 0;
@@ -25,3 +27,111 @@
       line-height: 30px;
     }
 }
+
+/*文本高斯模糊*/
+:root {
+    --card-text-color-main: #2a4f43; /* 你的主要文本颜色值 */
+  }
+.blur {
+    color: transparent;
+    text-shadow:0px 0px 8px var(--card-text-color-main)
+}
+ 
+.blur:hover {
+    color: transparent;
+    text-shadow:0px 0px 0px var(--card-text-color-main)
+   
+}
+
+/* 诗歌引用格式*/
+blockquote.quote-center {
+    position: relative;
+    border-left: none;
+    padding-left: 0;
+    border-top: 0px solid var(--card-separator-color);
+    border-bottom: 0px solid var(--card-separator-color);
+    p {
+      text-align: center !important;
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+    }
+    &::before {
+      position: absolute;
+      left: 0;
+      content: '“----';
+      color: #6496c880;
+      font-size: 3em;
+      font-weight: normal;
+      margin-top: -0.72em;
+    }
+    &::after {
+      position: absolute;
+      right: 0;
+      content: '----”';
+      color: #6496c880;
+      font-size: 3em;
+      font-weight: normal;
+      margin-top: -1.42em;
+    }
+}
+
+/*星星评级*/
+i.star{
+    color: hsl(339, 11%, 53%); /*星星的颜色*/
+  }
+  
+  i.star-outline{
+    color: hsl(159, 11%, 53%);/*空星星的颜色*/
+  }
+  
+  i.star svg, i.star-outline svg{
+    width: 20px;
+    fill: currentColor;
+}
+
+/*github样式*/
+.github {
+    border: 1px solid var(--card-text-color-main);
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    .github-icon {
+      width: 1.2em;
+      height: 1.2em;
+      margin-right: 0.5em;
+      margin-bottom: 0.2em;
+      fill: var(--card-text-color-main);
+      transition: all 0.5s;
+    }
+    .name {
+      font-weight: bold;
+      color: #2e97d9;
+      text-decoration: underline;
+      margin-left: 0.5em;
+      position: relative;
+      top: -5px; //加这个属性是因为我的图标和名称无法对齐，实际使用的时候要根据自己的网站修改
+    }
+    .description {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      color: var(--card-text-color-main);
+      text-align: justify;
+      font-size: 90%;
+      transition: all 0.5s;
+    }
+    .language-color {
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      width: 0.75em;
+      height: 0.75em;
+      border-radius: 50%;
+    }
+    .language-name {
+      color: var(--card-text-color-main);
+      font-size: 90%;
+      margin-left: 0.5em;
+      transition: all 0.5s;
+    }
+}  
