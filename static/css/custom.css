@@ -1,12 +1,12 @@
-//文本黑幕效果
+/*文本黑幕效果*/
 .shady {
     color:#669988;
     font-weight: bold;
-    box-shadow: 0px -20px 0px rgba(0,0,0,0.5) inset; 
+    box-shadow: 0px -20px 0px #669988 inset; 
     transition: all 0.3s ease;
 }
 .shady:hover{
    font-weight: bold;
-    color:#fff;
-    box-shadow: 0px -20px 0px rgba(0,0,0,0.5) inset; 
+    color:#669988;
+    box-shadow: 0px -20px 0px transparent inset; 
 }
