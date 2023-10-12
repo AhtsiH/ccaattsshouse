@@ -1,91 +1,12 @@
-
-::selection {
-    color: #669988;
-    background: #fff;
-}
-
-/*文本黑幕效果*/
+//文本黑幕效果
 .shady {
-    color:#000;
-    font-weight: normal;
-    box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
+    color:#669988;
+    font-weight: bold;
+    box-shadow: 0px -20px 0px rgba(0,0,0,0.5) inset; 
+    transition: all 0.3s ease;
 }
 .shady:hover{
-   font-weight: normal;
-    color:#669988;
-    box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
+   font-weight: bold;
+    color:#fff;
+    box-shadow: 0px -20px 0px rgba(0,0,0,0.5) inset; 
 }
-
-.mycard {
-    padding: 10px 20px;
-    margin: 20px 0;
-    border-radius: 4px;
-    word-break: break-all;
-    background: #d2e5eb14;
-    box-shadow: 0 6px 10px 0 #00000033;
-    .content {
-      line-height: 30px;
-    }
-}
-
-/*文本高斯模糊*/
-:root {
-    --card-text-color-main: #2a4f43; /* 你的主要文本颜色值 */
-  }
-.blur {
-    color: transparent;
-    text-shadow:0px 0px 8px var(--card-text-color-main)
-}
- 
-.blur:hover {
-    color: transparent;
-    text-shadow:0px 0px 0px var(--card-text-color-main)
-   
-}
-
-/* 诗歌引用格式*/
-blockquote.quote-center {
-    position: relative;
-    border-left: none;
-    padding-left: 0;
-    border-top: 0px solid var(--card-separator-color);
-    border-bottom: 0px solid var(--card-separator-color);
-    p {
-      text-align: center !important;
-      margin-top: 1.5em;
-      margin-bottom: 1.5em;
-    }
-    &::before {
-      position: absolute;
-      left: 0;
-      content: '“----';
-      color: #6496c880;
-      font-size: 3em;
-      font-weight: normal;
-      margin-top: -0.72em;
-    }
-    &::after {
-      position: absolute;
-      right: 0;
-      content: '----”';
-      color: #6496c880;
-      font-size: 3em;
-      font-weight: normal;
-      margin-top: -1.42em;
-    }
-}
-
-/*星星评级*/
-i.star{
-    color: hsl(339, 11%, 53%); /*星星的颜色*/
-  }
-  
-  i.star-outline{
-    color: hsl(159, 11%, 53%);/*空星星的颜色*/
-  }
-  
-  i.star svg, i.star-outline svg{
-    width: 20px;
-    fill: currentColor;
-}
-
