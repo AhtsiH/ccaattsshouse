@@ -50,3 +50,16 @@ i.star{
     color: #85b8a7;
     background: #2a4f43d5;
 }
+
+/*重点标记*/
+mark{
+    background: #66998888;
+}
+
+/*颜色预览*/
+.color-preview {
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-right: 0; /* 可根据需要进行调整 */
+}
+
