@@ -40,8 +40,20 @@ i.star{
 
 /*文字颜色渐变*/
 .colorfulfont {
-    background: linear-gradient(to right, rgb(25, 221, 238), #ed4588); /*第一个颜色代码是渐变起始色，第二个颜色代码是渐变结束色；*/
+    background: linear-gradient(to right, rgb(35, 148, 111), #f69b13); /*第一个颜色代码是渐变起始色，第二个颜色代码是渐变结束色；*/
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+/*文本高斯模糊*/
+.blur {
+    color: transparent;
+    text-shadow:0px 0px 8px var(--card-text-color-main)
+}
+ 
+.blur:hover {
+    color: transparent;
+    text-shadow:0px 0px 0px var(--card-text-color-main)
+   
 }
