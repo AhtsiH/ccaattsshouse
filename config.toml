@@ -7,7 +7,6 @@ copyright = "You" # cactus will use title if copyright is not set
 # googleAnalytics = "UA-1234-5"
 hasCJKLanguage = true
 
-
 # Main menu which appears below site header.
 [permalinks]
 weekly = "/:year/:slug/"
