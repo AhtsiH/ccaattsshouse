@@ -9,5 +9,7 @@ categories:
 slug: 在这里填入路径名
 ---
 {{<card>}}
-门口贴着一张写着：**工厂采用[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)进行许可**的纸条。
+你努力辨认了一下广播里传来的声音：
+***本工厂采用[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)进行许可，想要带出气球时，请遵守该协议中所提及的规则***
+广播停止了。
 {{</card>}}
