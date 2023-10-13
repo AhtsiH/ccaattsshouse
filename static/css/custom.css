@@ -10,3 +10,31 @@
     color:#669988;
     box-shadow: 0px -20px 0px transparent inset; 
 }
+/*星星评级*/
+i.star{
+    color: #189988; /*星星的颜色*/
+  }
+  
+  i.star-outline{
+    color: hsl(149, 0%, 40%);/*空星星的颜色*/
+  }
+  
+  i.star svg, i.star-outline svg{
+    width: 20px;
+    fill: currentColor;
+}
+
+/* 卡片样式*/
+.mycard {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    word-break: break-all;
+    background: #d2e5eb14;
+    box-shadow: 0 6px 10px 0 #00000033;
+    .content {
+      line-height: 30px;
+      padding-top: 10px;
+    }
+}
+
