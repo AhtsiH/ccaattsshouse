@@ -61,5 +61,6 @@ mark{
     display: inline-block;
     border: 1px solid #ccc;
     margin-right: 0; /* 可根据需要进行调整 */
+    width: 10px;
+    height: 10px
 }
-
