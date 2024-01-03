@@ -1,0 +1,88 @@
+{{ define "main" }}
+<!-- 页面信息部分，例如当前标签和总存档页面数 -->
+<div class="page-info">
+  <span>{{ i18n "archivesTotalPages" }}{{ len (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}</span>
+</div>
+
+<div class="empty-space"></div>
+
+<!-- 按年份存档 -->
+<div class="archive">
+  <div class="archive-year">
+    <h2>
+      <button class="collapsible" onclick="toggleArchive('archive-2023')">2023</button>
+    </h2>
+    <ul id="archive-2023" class="archive-list">
+      {{ range $index, $page := where .Site.RegularPages "Date.Year" 2023 }}
+        <li class="archive-item">
+          <span class="archive-date">{{ $page.Date.Format "01-02" }}</span> <!-- 仅显示月份和日 -->
+          <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+
+<div class="empty-space"></div>
+
+<div class="archive">
+  <div class="archive-year">
+    <h2>
+      <button class="collapsible" onclick="toggleArchive('archive-2022')">2022</button>
+    </h2>
+    <ul id="archive-2022" class="archive-list">
+      {{ range $index, $page := where .Site.RegularPages "Date.Year" 2022 }}
+        <li class="archive-item">
+          <span class="archive-date">{{ $page.Date.Format "01-02" }}</span> <!-- 仅显示月份和日 -->
+          <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+
+<style>
+  /* 隐藏初始状态下的列表 */
+  .archive-list {
+    display: none;
+  }
+
+  .collapsible {
+    background-color: #f0f8ff;
+    color: #8aa2d3;
+    padding: 10px;
+    border: 1px solid #8aa2d3;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .collapsible::before {
+    content: '#';
+    color: #e6cfe6; 
+  }
+
+  /* 按钮悬停时的样式 */
+  .collapsible:hover {
+    background-color: #e9f3fb;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // 在页面加载完成后将列表隐藏
+    var archiveList = document.getElementById('archive-2023');
+    archiveList.style.display = 'none';
+  });
+
+  function toggleArchive(archiveId) {
+    var archiveList = document.getElementById(archiveId);
+    archiveList.style.display = (archiveList.style.display === 'none' || archiveList.style.display === '') ? 'block' : 'none';
+  }
+</script>
+
+<div class="empty-space"></div>
+
+<!-- custom smart pagination -->
+{{- partial "pagination.html" (dict "context" . "pagi" .Paginator) -}}
+
+{{ end }}
