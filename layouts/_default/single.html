@@ -13,3 +13,14 @@
 </article>
 {{ end }}
 
+<!-- post meta -->
+<h2 class="post-item post-title">
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+</h2>
+{{ if .Date }}
+ <div class="post-item post-meta">
+   {{ partial "post-meta.html" . }}
+ </div>
+{{ end }}
+
+
