@@ -1,6 +1,7 @@
 ---
 title: "默认标题"
 date: {{ .Date }}
+hideDate: true
 description: 。
 tags:
   - 默认Tags
