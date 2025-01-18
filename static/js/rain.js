@@ -1,7 +1,7 @@
 console.log("Script started executing");
 ;(function () {
     const Config = {
-       snow: ['❄️','☃️','🐤','🎇','🎆','🎈',], // 雪花的样式，可以放不同的雪花，或者任何 emoji，每次生成新雪花时会随机挑选其中一个
+       snow: ['❄️','☃️','🐤','🎇','🎆','🎈','🧣'], // 雪花的样式，可以放不同的雪花，或者任何 emoji，每次生成新雪花时会随机挑选其中一个
         speed: 10, // 雪花从生成到落到最底端所经历的时间，单位是秒。数字越小落得越快
         dom: document.getElementsByTagName('body')[0], // 下雪的区域，可以保持不变，这样就是全屏下雪
         interval: 800 // 生成一片雪花的时间间隔，单位是毫秒
