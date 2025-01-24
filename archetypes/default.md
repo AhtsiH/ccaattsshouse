@@ -15,11 +15,6 @@ slug: 在这里填入路径名
   }
 </style>
 
-<div class="open-heart-section">
-    <!-- emoji 可为多个，但必须要在前面的可识别列表里出现 -->
-    <open-heart href="https://kudokupo.xinghegaoxuan.workers.dev{{ .Permalink }}" emoji="❤️">
-    </open-heart>
-</div>
 
 
 {{<card>}}
