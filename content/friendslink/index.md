@@ -30,7 +30,8 @@ slug: friendslink
 | [晴空](https://summeringway.icu/)                 |像鸟儿编辑它们的飞行一般书写。
 | [你留下点希望的影像吧](https://www.asecarc.top/)                 |A thing of beauty, will never fade away.
 | [小球飞鱼](https://mantyke.icu/)                 |我们会一起遇见鲸鱼吗？| 
-| [此地有野狗出没](https://luoshui.icu/)                 |注意，野兽凶猛！
+| [此地有野狗出没](https://luoshui.icu/)                 |注意，野兽凶猛！|
+| [白龙忆罪宫](https://dragmon.com/)                 |A dragon is watching you.|
 
 <br/>
 </div>
