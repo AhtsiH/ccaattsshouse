@@ -32,6 +32,8 @@ slug: friendslink
 | [小球飞鱼](https://mantyke.icu/)                 |我们会一起遇见鲸鱼吗？| 
 | [此地有野狗出没](https://luoshui.icu/)                 |注意，野兽凶猛！|
 | [白龙忆罪宫](https://dragmon.com/)                 |A dragon is watching you.|
+| [卷毛羊丨Curly Sheep](https://curly-sheep.netlify.app/)                 |没有想好先空着吧……！|
+
 
 <br/>
 </div>
