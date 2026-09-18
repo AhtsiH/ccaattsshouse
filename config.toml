@@ -7,6 +7,9 @@ copyright = "You" # cactus will use title if copyright is not set
 # googleAnalytics = "UA-1234-5"
 hasCJKLanguage = true
 
+# 全局忽略远程 JSON 请求失败的报错，避免阻塞本地构建
+ignoreErrors = ["error-remote-getjson"]
+
 # Main menu which appears below site header.
 [permalinks]
 weekly = "/:year/:slug/"
@@ -102,5 +105,5 @@ weight = 5
       #serverName = "" # Defaults to cactus.chat
     
     
-ignoreErrors = ["error-remote-getjson"]
+
 

@@ -128,7 +128,7 @@ mark{
     position: absolute;
     top: 0;
     right: 0;
-    background: #6a998a;
+    background: #8aa2d3;
     padding: 1px 8px;
     font-size: small;
     font-style: italic;
@@ -154,31 +154,28 @@ mark{
 
 .rating .allstardark {
     position: relative;
-    color: #189988
+    color: #ff8099;
     height: 16px;
     width: 80px;
     background-size: auto 100%;
     margin-right: 8px;
     background-repeat: repeat;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23189988' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572' /%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ff8099' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572' /%3E%3C/svg%3E");
 }
-
-
 
 .rating .allstarlight {
     position: absolute;
     left: 0;
-    color: #2a4f43d5;
+    color: #ff8099;
     height: 16px;
     overflow: hidden;
     background-size: auto 100%;
     background-repeat: repeat;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%232a4f43d5' stroke='%232a4f43d5' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572' /%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23ff8099' stroke='%23ff8099' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572' /%3E%3C/svg%3E");
 }
 
-
 .rating_nums {
-    color: #2a4f43d5; 
+    color: #8aa2d3; 
 }
 
 @media (max-width: 600px) {
