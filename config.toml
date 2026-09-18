@@ -101,5 +101,6 @@ weight = 5
       #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
       #serverName = "" # Defaults to cactus.chat
     
-
+    
+ignoreErrors = ["error-remote-getjson"]
 
