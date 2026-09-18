@@ -154,7 +154,7 @@ mark{
 
 .rating .allstardark {
     position: relative;
-    color: #ff8099;
+    color: #567b46;
     height: 16px;
     width: 80px;
     background-size: auto 100%;
@@ -166,7 +166,7 @@ mark{
 .rating .allstarlight {
     position: absolute;
     left: 0;
-    color: #ff8099;
+    color: #567b46;
     height: 16px;
     overflow: hidden;
     background-size: auto 100%;
@@ -175,7 +175,7 @@ mark{
 }
 
 .rating_nums {
-    color: #8aa2d3; 
+    color: #567b46; 
 }
 
 @media (max-width: 600px) {
